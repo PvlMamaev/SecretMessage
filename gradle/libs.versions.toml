@@ -7,6 +7,7 @@ espresso-core = "3.5.1"
 junit = "4.13.2"
 material = "1.11.0"
 navigation-fragment-ktx = "2.7.7"
+kotlin = "1.9.22"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
@@ -19,3 +20,4 @@ junit = { module = "junit:junit", version.ref = "junit" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 
 [plugins]
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
